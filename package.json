@@ -1,0 +1,25 @@
+{
+    "name": "chatgpt-telegram-bot",
+    "version": "1.0.0",
+    "description": "A simple ChatGPT telegram bot for private use",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ."
+    },
+    "keywords": [
+        "chatgpt",
+        "bot",
+        "telegram",
+        "bot",
+        "ai"
+    ],
+    "author": "KuzyXD",
+    "devDependencies": {
+        "prettier": "2.8.4"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "node-telegram-bot-api": "^0.61.0",
+        "openai": "^3.1.0"
+    }
+}
