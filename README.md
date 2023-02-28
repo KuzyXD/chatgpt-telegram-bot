@@ -4,7 +4,7 @@ This is a Node.js application that hosts a Telegram bot which communicates with 
 ## Prerequisites
 Before running the application, make sure you have the following installed:
 
-* Node.js v14 or higher
+* [Node.js v14 or higher](https://nodejs.org/en/)
 * npm package manager
 * A Telegram bot token from BotFather
 * An API key from ChatGPT
@@ -12,7 +12,7 @@ Before running the application, make sure you have the following installed:
 ## Installation
 1. Clone the repository or download the source code
 2. Install dependencies by running npm install
-3. Create a .env file in the root directory and add the following environment variables:
+3. Create a `.env` file in the root directory and add the following environment variables:
 ```makefile
 # It's not language of ChatGPT answers. It's language for errors and some chat commands
 LANGUAGE="en" 
@@ -21,10 +21,10 @@ LANGUAGE="en"
 OPENAI_TOKEN=""
 TELEGRAM_BOT_TOKEN=""
 ```
-4. Start the application by running npm start
+4. Start the application by running `npm start`
 
 ## Usage
-Once the application is running, you can interact with the bot by sending messages to it in Telegram. The bot will respond with generated text based on the user's input. To start a conversation with the bot, search for it by name in Telegram and click on "Start".
+Once the application is running, you can interact with the bot by sending messages to it in Telegram. The bot will respond with generated text based on the user's input. To start a conversation with the bot, search for it by name in Telegram and write `/start`.
 
 ## Contributing
 Contributions are welcome! To contribute, please follow these steps:
@@ -36,4 +36,4 @@ Contributions are welcome! To contribute, please follow these steps:
 5. Submit a pull request to the main repository
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://raw.githubusercontent.com/KuzyXD/chatgpt-telegram-bot/master/LICENSE) file for details.
