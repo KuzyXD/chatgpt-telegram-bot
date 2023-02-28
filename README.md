@@ -1,20 +1,39 @@
-# ChatGPT telegram bot
+# Telegram Bot for ChatGPT API
+This is a Node.js application that hosts a Telegram bot which communicates with the ChatGPT API. This bot allows users to interact with ChatGPT's AI language model to generate text.
 
-## Introduction
-I've make this telegram bot for my personal use and I would be glad if you could use it too.
+## Prerequisites
+Before running the application, make sure you have the following installed:
 
-## How to start
-1. Install [Node.js](https://nodejs.org/en/) LTS version 
-2. Download this repository and place wherever you want
-3. Open console from repository root
-4. Execute `npm run install` command
-5. Rename `.env.example` to `.env` and fill out the fields
-6. Start app with `npm run start`
+* Node.js v14 or higher
+* npm package manager
+* A Telegram bot token from BotFather
+* An API key from ChatGPT
 
-## Where will I find the tokens?
-**For ChatGPT**: You need to create OpenAI account and get it here [https://platform.openai.com/account/api-keys]()
+## Installation
+1. Clone the repository or download the source code
+2. Install dependencies by running npm install
+3. Create a .env file in the root directory and add the following environment variables:
+```makefile
+# It's not language of ChatGPT answers. It's language for errors and some chat commands
+LANGUAGE="en" 
 
-**For Telegram**: You need to create bot using BotFather like here [https://blog.devgenius.io/how-to-set-up-your-telegram-bot-using-botfather-fd1896d68c02]()
+#It's your PRIVATE tokens. Do not distribute them, keep them safe
+OPENAI_TOKEN=""
+TELEGRAM_BOT_TOKEN=""
+```
+4. Start the application by running npm start
 
-## Supported languages
-Inside `.env` file you can specify the language you use. For now it is `en` as English and `ru` as Russian
+## Usage
+Once the application is running, you can interact with the bot by sending messages to it in Telegram. The bot will respond with generated text based on the user's input. To start a conversation with the bot, search for it by name in Telegram and click on "Start".
+
+## Contributing
+Contributions are welcome! To contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature or bug fix
+3. Make changes and commit them
+4. Push your changes to your fork
+5. Submit a pull request to the main repository
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
