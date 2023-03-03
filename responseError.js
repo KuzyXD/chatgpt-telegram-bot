@@ -1,3 +1,4 @@
+const lang = require('./lang.js');
 module.exports = class ResponseError {
     message;
     code;
